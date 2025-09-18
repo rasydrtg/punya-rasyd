@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas ke-2</title>
+    <style>
+      body {
+        background-image: url(https://th.bing.com/th/id/OIP.KEQtiYNAXUHk5VggY7k55gHaE8?w=260&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+      h2 {
+        color: rgb(0, 0, 0);
+      }
+      fieldset {
+        background-image: url(https://th.bing.com/th/id/OIP.ATBAHbNiOEuFJHsV5pEknwHaHa?w=191&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>
+      <u
+        ><b><center>DAFTAR PESERTA BARU</center></b></u
+      >
+    </h2>
+    <form>
+      <!-- login -->
+      <fieldset>
+        <b><legend>DAFTAR</legend></b>
+        <table>
+          <tr>
+            <td><label for="Username">Nama Lengkap</label></td>
+            <td><input type="Username" id="Username" name="Username" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="Password">Password</label></td>
+            <td><input type="Password" id="Password" name="Password" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Konfirmasi password">Konfirmasi Password</label>
+            </td>
+            <td>
+              <input
+                type="Password"
+                id="Konvirmasi password"
+                name="Konfirmasi password"
+              />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <!-- data diri -->
+
+      <fieldset>
+        <b><legend>Data Diri</legend></b>
+        <br />
+        <label>Jenis Kelamin:</label><br />
+        <input type="radio" id="pria" name="jenis_kelamin" value="pria" />
+        <label for="pria">Pria</label><br />
+        <input
+          type="radio"
+          id="perempuan"
+          name="jenis_kelamin"
+          value="perempuan"
+        />
+        <label for="perempuan">Perempuan</label><br /><br />
+
+        <!-- data diri 2 -->
+
+        <label>Olahraga Yang Disukai:</label><br />
+        <input type="checkbox" id="Basket" name="Olahraga" value="Basket" />
+        <label for="Basket">Basket</label><br />
+        <input type="checkbox" id="Voli" name="Olahraga" value="Voli" />
+        <label for="Voli">Voli</label><br />
+        <input type="checkbox" id="Futsal" name="Olahraga" value="Futsal" />
+        <label for="Futsal">Futsal</label><br />
+        <input type="checkbox" id="DLL" name="Olahraga" value="DLL" />
+        <label for="DLL">DLL</label><br />
+
+        <!-- pilihan -->
+
+        <br />
+        <tr>
+          <td>
+            <label for="Anak">Anak ke</label>
+          </td>
+          <td>
+            <select name="Anak" id="Anak ke">
+              <option value="#">Pilih salah satu</option>
+              <option value="pertama">1</option>
+              <option value="kedua">2</option>
+              <option value="ketiga">3</option>
+              <option value="seterusnya">seterusnya</option>
+            </select>
+          </td>
+        </tr>
+      </fieldset>
+
+      <input type="submit" value="Daftar" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>
