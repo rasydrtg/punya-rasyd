@@ -9,6 +9,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url(https://th.bing.com/th/id/OIP.fKFtaq2mC1DJM_uWYNLGGQHaE3?w=252&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
       }
       .container {
         border: 1px solid #ccc;
@@ -38,6 +42,7 @@
       }
       legend {
         text-align: center;
+        color: #fcfcfc;
       }
       fieldset {
         background: #a8c034;
@@ -56,10 +61,10 @@
         </h2>
       </legend>
       <div class="container">
-        <label for="bil1">Bilangan 1</label>
+        <label for="bil1" aria-placeholder="123">Bilangan 1</label>
         <input type="number" id="bil1" />
 
-        <label for="bil2">Bilangan 2</label>
+        <label for="bil2" aria-placeholder="123">Bilangan 2</label>
         <input type="number" id="bil2" />
 
         <div>
@@ -71,8 +76,12 @@
         <br />
 
         <label for="hasil">Hasil</label>
-        <input type="number" id="hasil" readonly />
+        <input type="number" id="hasil" readonly placeholder="hasil" />
       </div>
+      <div>
+      <br /><br /><br />
+      <hr />
+      <p>Editor : Rasyd Arija Azron Ritonga</p>
 
       <!-- java -->
 
